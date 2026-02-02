@@ -37,3 +37,7 @@ OUT_DIR="/share/lab_teng/trainee/JingjingWu/EBV/APA_Results/Individual_Promoter_
         -r 5000 \
         -k NONE \
         $HIC temp.bedpe "$OUT_DIR/$GENE_ID"
+
+# Step 4. Collect data in tables
+
+Generate_APA_Results_in_Tables.py
