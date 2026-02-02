@@ -1,0 +1,2 @@
+# Step 2
+awk 'BEGIN{OFS="\t"} {print $1, $2, $3, $1, $2, $3}’ /share/lab_teng/trainee/JingjingWu/EBV/HiC_icenorm_AggregatePeakAnalysis/Promoter_Bins_5Kb_hg19.bed > /share/lab_teng/trainee/JingjingWu/EBV/HiC_icenorm_AggregatePeakAnalysis/Promoter_Anchors.bedpe
